@@ -1,0 +1,47 @@
+.tag1 {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .card {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px;
+    min-width: 320px;
+    max-width: 340px;
+    width: 100%;
+   
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 16px;
+    background-color:transparent;
+    transition: 200ms ease-in-out;
+    border-radius: 40px;
+
+   
+  
+  }
+
+.img{
+    position: relative;
+    min-width: 350px;
+    max-width: 410px;
+    height: 50vh;
+    border-radius: 40px;
+    margin: 2px 2px;
+    z-index: -1;
+    opacity: 0.7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+  

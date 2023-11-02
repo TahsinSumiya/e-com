@@ -7,7 +7,7 @@ export default function Categories() {
 <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   {categories.map(item => (
     <div className='flex mx-5' key={item.id}>
-      <CategoryItem item={item} /> 
+      <CategoryItem item={item} key={item.id}  /> 
     </div>
   ))}
 </div>
